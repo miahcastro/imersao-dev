@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imersão Dev Alura - Aula 01</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://cdn.dribbble.com/users/675405/screenshots/3822097/media/33d7183d168c1d503e3bff59faec6d0b.png?compress=1&resize=800x600&vertical=top">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    
+    <p class="page-subtitle">
+      Descubra os valores de US$/EUR para BRL
+    </p>
+    <label for="moeda"><strong> Insira o valor</strong> </label><br>
+
+    <input type="number" id="valor" size="2" /><br>
+
+    <div class="botoes">
+      <button class="dolar "type="submit" onclick="converterDolar()">Converter em Dólar </button>
+      
+      
+      <button class="euro" type="submit" onclick="converterEuro()">Converter em Euro </button>
+      <h2 id="valorConvertidoDolar"></h2>
+      <h2 id="valorConvertidoEuro"></h2>
+    </div>
+    <div class="divider"></div>
+
+    </div>
+
+    
+
+  <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <footer>
+    Imersão Dev 4 - Alura. Feito por Camila Bellon 
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
