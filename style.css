@@ -70,6 +70,12 @@ label {
   background-color: #FFAF55;
 
 }
+
+.resultado {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 h2 {
   color: #000000;
   font-size: 1rem;
